@@ -1,0 +1,364 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+body {
+  font-family: arial;
+  background: greenyellow;
+  
+  
+}
+
+#popup {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  right: 35%;
+}
+
+#Aarib {
+position: absolute;
+  top: 30px;
+  left: 0px;
+  
+}
+
+#Alex {
+position: absolute;
+top: 55px;
+left: 0px;
+  
+}
+
+#Sam {
+position: absolute;
+top: 80px;
+left: 0px;
+}
+
+#Mowi {
+position: absolute;
+top: 107px;
+left: 0px; 
+}
+
+
+#invisible {
+opacity: 0;
+  
+}
+
+
+.hide {
+  visibility: hidden;
+  
+}
+
+/*Start Of campagin battles*/
+
+
+
+
+.DOIPHidden {
+  visibility: hidden;
+  
+}
+
+#DOIP {
+  text-align: center;
+  
+}
+
+.presetMonsters {
+  color: #ff0000;
+  background: black;
+  border-radius: 10px;
+  height: 40px;
+  
+}
+
+.CampaignBattlePageHidden {
+  visibility: hidden;
+
+
+}
+
+.CampaignBattleVisible {
+
+  visibility: visible;
+}
+
+#presetBattle {
+  text-align: center;
+
+  
+}
+
+/*End Of campagin battles*/
+/* start of login */
+
+#loginButton {
+  position: absolute;
+  top: 60%;
+  right: 33%;
+  
+} 
+
+
+#CreateAccountButton {
+  position: absolute;
+  top: 60%;
+  left: 33%;
+} 
+
+#createAccountText {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+
+#CreateUsername {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  height: 40px;
+}
+
+#CreatePassword {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  height: 40px;
+}
+
+#logIn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.loginhidden {
+  visibility: hidden;
+
+  
+}
+
+#logintext {
+  position: absolute;
+  right: 35%;
+  top: 30%;
+  
+}
+
+
+#username {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  height: 40px;
+}
+
+#password {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  height: 40px;
+}
+
+/* end of login */
+
+
+#campBattles {
+  position: absolute;
+  left: 100px;
+  color: #ff0000;
+  
+}
+
+.campaignBattle {
+  visibility: hidden;
+
+  
+}
+
+
+
+
+
+
+
+
+.fastTravel {
+  background: black;
+  height: 40px;
+  width: 100px;
+  color: red;
+  position: absolute;
+  top: 10%;
+  
+}
+
+
+
+#travel {
+
+  position: absolute;
+  left: 0px;
+}
+
+
+.startPar1 {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  
+}
+
+
+
+
+#beta {
+
+  /*in this veiw it looks weird. on web view it looks good */
+  background: #0091ff;
+  color: white;
+  position: absolute;
+  top: 32px;
+  border: black;
+  right: 32%;
+
+}
+
+
+.startPar {
+
+  text-align: center;
+  
+}
+
+
+
+#travel {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  
+}
+
+#StartGame {
+
+  position: absolute;
+  font-family: arial;
+  background: #db3333;
+  width: 60px;
+  border-radius: 100px;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  
+  
+}
+
+
+#closeHelp {
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#help {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#heading1 {
+  text-align: center;
+  font-size: 34px;
+  color: red;
+  background: black;
+}
+
+#channelog {
+  
+  color: black;
+  background: greenyellow;
+  position: absolute;
+  top: 0px;
+  box-shadow: 0px 0px 10px black;
+}
+
+
+#addogre {
+
+  
+}
+
+
+#addgoblin {
+
+ 
+}
+ 
+#addorc {
+
+}
+#addzombie {
+
+}
+#addanchoriteOfTalos {
+  
+}
+
+
+
+#email {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  
+}
+.par {
+  position: static;
+  top: 100px;
+} 
+
+.addmonster {
+  box-shadow: 10px 10px 10px #000000;
+  border-radius: 100px; 
+  color: red;
+  background: black;
+  border: black;
+  width: 100px;
+  height: 75px
+  
+}
+
+
+
+#notifs {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+#helpMenu {
+  width: 100%;
+  height: 500px;
+  background: #ffdd00;
+  position: absolute;
+  top: 60px;
+}
+
+
+/* fixed position is the element will stay fixed even if you scroll down. Absolute is how many px it will be from the parent or the top of the page. static is defalt. realitive is positioned to its normal position but can use top bottom left rihght. absolute and realitive work great together. sticky means as soon as you scroll down it will stick to the side it is set too. sticky is mix of fix and realitive*/
+
+
+
+
