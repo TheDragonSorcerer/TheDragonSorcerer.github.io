@@ -8,9 +8,6 @@
 </head>
 
 <body>
-
-
-  
   <script src="script.js"></script>
   <div id="menu"></div>
   <h1 id="heading1", >D&D Battle Simulator <button id="beta">Beta</button></h1> 
@@ -19,98 +16,35 @@
   <div class="startPar1" id="firstPar">Welcome to D&D Battle Simulator. Click the buttons below to add <b>monsters</b>. Click the help button to find out how to use this simulator. If you do not know how to play dungeons and dragons then you should learn to play first. This software is only for the dungeons master and only for the players <b><i><u>if</u></i></b> they have done a succefull history check. At this time there is no feedback page. Please allow notifications for full experience. Too delete a monster you have to <b>reload</b> the page. at this time there is no delete monster button. If a monster dies, wait until all other enemies are dead before reloading the page. Version 1.3.</div>
   
 
-  <select id="travel" class="fastTravel"onchange="location = this.value">
+<!--  <select id="travel" class="fastTravel"onchange="location = this.value">
     <option value="#menu">Main Menu</option>
     <option value="#battle">Battle</option>
     <option value="#heading2">Channelog</Channelog>
     <option value="#helpPage">Help</option>
     <option value="4">About</option>
-  </select>
+  </select> -->
 
-  <button id="campBattles" class="fastTravel" onclick="campBattles()">Campaign Battles</button>
-
-  
-
+  <a href="Campaign Battles/campaignBattles.html">
+    <button id="campBattles" class="fastTravel">Campaign Battles</button>
+  </a>
+  <!--<a href="Generate Map/">
+    <button id="mapGen" class="fastTravel">Generate Map. Coming Soon</button> -->
+  </a>
   <h2  class="campaignBattle">Campaign Battles</h2>
   <div class="campaignBattle">Click the Campaign to see what the main monsters for the campaign are.</div>
-  
-
-
-  
-
-
-  
-
-
-  
-  <a href="#battle">
-  <button id="StartGame", class="startgame" onclick="startGame()">Start Game</button>
-  </a>
-  
   <a href="#heading2"> 
     <button id="channelog", onclick="channeLog()">Channelog</button>
   </a>
-
-  
-  <!--<a href="https://create-account.copper9000.repl.co/">
-    <button id="email">Create Account</button>
-  </a> -->
-  
   <button id="notifs", onclick="AllowNotifs()">Allow Notifications</button>
-
-
-
-  
   <div id="startParAdult">  
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
     <h2 id="helpPage" class="startPar">Help Page</h2>
     <p class="startPar">This is a help page for the D&d battle simulator.</p>
     <h3 class="startPar">Monsters</h3>
@@ -128,40 +62,13 @@
     <br class="startPar">
     <br class="startPar">
     <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-  
+    <hr>
     <h2 class="startPar" id="heading2"><u>Channelog</u></h2>
     <div class="startPar">Website is Fully Functional. Starting with 5 monsters. <b>December 14, 2022</b> </div>
     <div class="startPar"></div>
     
-      <br class="startPar">
     <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
-    <br class="startPar">
+
     <br class="startPar">
     <br class="startPar">
     <hr>
@@ -173,7 +80,7 @@
   <div id="origonalBattle">
     <h2 id="battle" class="startPar">Battle</h2>
     <br>
-    <div class="startPar">Click the buttons and <b>scroll down</b> to see the monsters. </div>
+    <div class="startPar">Click the buttons and <b>scroll down</b> to see the monsters. Note: fore more monsters click campagin battles </div>
     <br>
   </div>
 
@@ -191,45 +98,6 @@
 
   <!-- Campaign Battles -->
 
-  <div id="presetBattle" class="CampaignBattlePageHidden" >
-    <h2>Welcome to Campaign Battles</h2>
-    <p>Click one of the buttons below to set up a campaign battle. <b>Note: Some monsters are not common enough in the campaign to be in here unless they are  somewhat of importance.</b></p>
-    <button class="presetMonsters" onclick="DOIP()">Dragon Of Icepire Peak</button>
-    <button class="presetMonsters" onclick="">Storm Kings Thunder. Coming Soon!</button>
-    <button class="presetMonsters" onclick="">Storm Lords Wrath. Coming Soon!</button>
-    <button class="presetMonsters" onclick="">Create your own preset. Coming Soon!</button>
-    
-  </div>
-
-  
-  <div id="DOIP" class="DOIPHidden">
-    <hr>
-    <br>
-    <button id="DOIPOrc" onclick="DOIPOrc()" >Orc</button>
-    <button id="DOIPAOT" onclick="DOIPAOT()" >Anchorite Of Talos</button>
-    <button id="DOIPDragon" onclick="" >The Dragon</button>
-    <button id="DOIPGiantRat" onclick="DOIPGianRat()" >Giant Rat</button>
-    <button id="DOIPGhoul" onclick="DOIPGhoul()" >Ghoul</button>
-    <button id="" onclick="DOIPCC()">Carron Crawler</button>
-    <button id="" onclick="DOIPAK()">Ankeh</button>
-    <button id="" onclick="DOIPHAR()">Harpy</button>
-    <button id="" onclick="DOIPWR()">Were Rat</button>
-    <button id="" onclick="DOIPGTTB()">Gorthok the Thunder Boar </button>
-    <button id="invisible">Invisible</button>
-    <button id="addplayer" onclick="addPlayer()">Add Player</button>
-  
-    <div id="popup" class="hide">
-      <button id="exitMenu" onclick="exitMenu()">Exit</button>
-      <button id="Aarib" onclick="addAarib()">Aarib</button>
-      <button id="Alex" onclick="addAlex()">Alex</button>
-      <button id="Sam" onclick="addSam()">Sam</button>
-      <button id="Mowi" onclick="addMowi()">Mouwi</button>
-      
-    </div>
-    
-    <hr>
-    <br>
-  </div>
   
 
 

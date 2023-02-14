@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <title>D&D Battle Simulator</title>
+  <link href="campaignBattles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <script src="campbattles.js"></script>
+
+  <h1 id="mainTitle">D&D Battle Simulator</h1>
+  <div id="presetBattle" class="CampaignBattlePageHidden" >
+    <h2>Campaign Battles</h2>
+    <p>Click one of the buttons below to set up a campaign battle. <b>Note: Some monsters are not common enough in the campaign to be in here unless they are  somewhat of importance.</b></p>
+    <button class="presetMonsters" onclick="DOIP()">Dragon Of Icepire Peak</button>
+    <button class="presetMonsters" onclick="">Storm Kings Thunder. Coming Soon!</button>
+    <!--<button class="presetMonsters" onclick="">Storm Lords Wrath. Coming Soon!</button>
+    <button class="presetMonsters" onclick="">Create your own preset. Coming Soon!</button> -->
+  </div>
+
+  
+  <div id="DOIP" class="DOIPHidden">
+    <hr>
+    <br>
+    <button id="DOIPOrc" onclick="DOIPOrc()" >Orc</button>
+    <button id="DOIPAOT" onclick="DOIPAOT()" >Anchorite Of Talos</button>
+    <button id="DOIPDragon" onclick="" >The Dragon (Not Avalible)</button>
+    <button id="DOIPGiantRat" onclick="DOIPGianRat()" >Giant Rat</button>
+    <button id="DOIPGhoul" onclick="DOIPGhoul()" >Ghoul</button>
+    <button id="" onclick="DOIPCC()">Carron Crawler</button>
+    <button id="" onclick="DOIPAK()">Ankeh</button>
+    <button id="" onclick="DOIPHAR()">Harpy</button>
+    <button id="" onclick="DOIPWR()">Were Rat</button>
+    <button id="" onclick="DOIPGTTB()">Gorthok the Thunder Boar </button>
+    <button id="invisible">Invisible</button>
+    <button id="addplayer" onclick="addPlayer()">Add Player</button>
+  
+    <div id="popup" class="hide">
+      <button id="exitMenu" onclick="exitMenu()">X</button>
+      <button id="player1" onclick="addPlayer1()">Player 1</button>
+      <button id="player2" onclick="addPlayer2()">Player 2</button>
+      <button id="player3" onclick="addPlayer3()">Player 3</button>
+      <button id="player4" onclick="addPlayer4()">Player 4</button>
+    </div>
+    <hr>
+    <br>
+    <br>
+  </div>
+  <div id="SKT" class="hide">
+    <hr>
+    <br>
+    <button id="SKIgroundGiant" onclick="SKIgroundGiant()">Ground Giant</button>
+    <button id="SKIairGiant" onclick="SKIairGiant()">Air Giant</button>
+  </div>
+  <!--<button id="settings" onclick="settings()">Settings</button>
+  <div id="settingsPage" class="hide">
+    <div id="pageOfSettings"></div>
+    <h5 id="playerNameHeading">Player Names</h5>
+    <input type="text" id="player1Name" placeholder="Player 1 Name"></input>
+
+    <button id="setPlayers" onclick="setPlayers()">Save and Apply</button>
+  </div> -->
+  
+</body>
+</html>

@@ -10,47 +10,11 @@ body {
   
 }
 
-#popup {
-  width: 500px;
-  height: 300px;
-  background-color: white;
+#mapGen {
   position: absolute;
-  top: 25%;
-  right: 35%;
+  top: 63px;
+  left: 100px;
 }
-
-#Aarib {
-position: absolute;
-  top: 30px;
-  left: 0px;
-  
-}
-
-#Alex {
-position: absolute;
-top: 55px;
-left: 0px;
-  
-}
-
-#Sam {
-position: absolute;
-top: 80px;
-left: 0px;
-}
-
-#Mowi {
-position: absolute;
-top: 107px;
-left: 0px; 
-}
-
-
-#invisible {
-opacity: 0;
-  
-}
-
 
 .hide {
   visibility: hidden;
@@ -60,125 +24,9 @@ opacity: 0;
 /*Start Of campagin battles*/
 
 
-
-
-.DOIPHidden {
-  visibility: hidden;
-  
-}
-
-#DOIP {
-  text-align: center;
-  
-}
-
-.presetMonsters {
-  color: #ff0000;
-  background: black;
-  border-radius: 10px;
-  height: 40px;
-  
-}
-
-.CampaignBattlePageHidden {
-  visibility: hidden;
-
-
-}
-
-.CampaignBattleVisible {
-
-  visibility: visible;
-}
-
-#presetBattle {
-  text-align: center;
-
-  
-}
-
 /*End Of campagin battles*/
-/* start of login */
-
-#loginButton {
-  position: absolute;
-  top: 60%;
-  right: 33%;
-  
-} 
 
 
-#CreateAccountButton {
-  position: absolute;
-  top: 60%;
-  left: 33%;
-} 
-
-#createAccountText {
-  position: absolute;
-  top: 30%;
-  left: 35%;
-}
-
-
-#CreateUsername {
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  height: 40px;
-}
-
-#CreatePassword {
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  height: 40px;
-}
-
-#logIn {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-
-.loginhidden {
-  visibility: hidden;
-
-  
-}
-
-#logintext {
-  position: absolute;
-  right: 35%;
-  top: 30%;
-  
-}
-
-
-#username {
-  position: absolute;
-  top: 40%;
-  right: 30%;
-  height: 40px;
-}
-
-#password {
-  position: absolute;
-  top: 50%;
-  right: 30%;
-  height: 40px;
-}
-
-/* end of login */
-
-
-#campBattles {
-  position: absolute;
-  left: 100px;
-  color: #ff0000;
-  
-}
 
 .campaignBattle {
   visibility: hidden;
